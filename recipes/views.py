@@ -3,12 +3,12 @@ from django.shortcuts import render
 
 
 def home(request):
-    return HttpResponse('home 2')
+    return HttpResponse('HOME 2')
 
 
 def contato(request):
-    return HttpResponse('contato 2')
+    return HttpResponse('CONTATO 2')
 
 
 def sobre(request):
-    return HttpResponse('sobre 2')
+    return HttpResponse('SOBRE 2')
